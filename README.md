@@ -1,6 +1,6 @@
-# Next.js Full-stack Starter
+# Next.js Starter
 
-This helps me construct initial project for full-stack next.js application architecture
+This helps me construct initial project for next.js application architecture
 
 ## Configuration
 
@@ -17,4 +17,3 @@ This helps me construct initial project for full-stack next.js application archi
 [`Husky`](https://typicode.github.io/husky/#/)
 
 [`ESLint`](https://nextjs.org/docs/basic-features/eslint)
-
