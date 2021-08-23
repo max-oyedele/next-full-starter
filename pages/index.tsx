@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Counter } from "src/components/Counter";
 
 export default function Home() {
   return (
@@ -64,6 +65,9 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <Counter />
+        
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">

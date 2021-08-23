@@ -26,6 +26,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
     "@types/jest": "26.0.15",
     "@types/node": "12.0.0",
     "@types/react": "17.0.0",
@@ -48,7 +49,6 @@
     "react-tabs": "^3.2.2",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
-    "redux-promise-middleware": "^6.1.2",
     "styled-components": "^5.2.1",
     "superjson": "^1.7.4",
     "swagger-ui-react": "3.35.0",
