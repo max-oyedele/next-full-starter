@@ -16,7 +16,7 @@ This helps me construct initial project for full-stack next.js application archi
 
 [`Husky`](https://typicode.github.io/husky/#/)
 
-[`ESLint`](https://joelmasters.medium.com/setting-up-eslint-for-nextjs-37163d4cabaa)
+[`ESLint`](https://nextjs.org/docs/basic-features/eslint)
 
 [`TypeORM`](https://typeorm.io/#/)
 

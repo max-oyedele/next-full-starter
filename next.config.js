@@ -36,7 +36,7 @@ module.exports = withPWA(
 
       return config;
     },
-
+    
     i18n,
     
   }
