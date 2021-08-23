@@ -1,4 +1,4 @@
-# Next.js Full-stack Starter - Open Source 
+# Next.js Full-stack Starter
 
 This helps me construct initial project for full-stack next.js application architecture
 
