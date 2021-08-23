@@ -1,15 +1,21 @@
 import "src/styles/globals.css";
 
-import ServiceWorkerWrapper from "src/ServiceWorkerWrapper";
 import React from "react";
+import type { AppProps, NextWebVitalsMetric } from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+import ServiceWorkerWrapper from "src/ServiceWorkerWrapper";
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.StrictMode>
-      {/* <ServiceWorkerWrapper /> */}
+      <ServiceWorkerWrapper />
       <Component {...pageProps} />
     </React.StrictMode>
   );
+}
+
+export function reportWebVitals(metric: NextWebVitalsMetric) {
+  console.log(metric)
 }
 
 export default MyApp;
