@@ -18,6 +18,3 @@ This helps me construct initial project for full-stack next.js application archi
 
 [`ESLint`](https://nextjs.org/docs/basic-features/eslint)
 
-[`TypeORM`](https://typeorm.io/#/)
-
-
