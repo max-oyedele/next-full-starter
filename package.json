@@ -21,7 +21,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install",
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/jest": "26.0.15",
