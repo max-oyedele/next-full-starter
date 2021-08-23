@@ -8,7 +8,7 @@ This helps me construct initial project for full-stack next.js application archi
 
 [`TypeScript`](https://www.typescriptlang.org/docs/handbook/react.html)
 
-[`Redux`](https://redux.js.org/introduction/getting-started)
+[`React Redux`](https://react-redux.js.org/tutorials/typescript-quick-start)
 
 [`Tailwind CSS`](https://tailwindcss.com/docs)
 
