@@ -10,7 +10,7 @@ import { store } from "src/redux/store";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.StrictMode>
-      <ServiceWorkerWrapper />
+      {/* <ServiceWorkerWrapper /> */}
       <ReduxProvider store={store}>
         <Component {...pageProps} />
       </ReduxProvider>
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export function reportWebVitals(metric: NextWebVitalsMetric) {
-  console.log(metric);
+  // console.log(metric); 
 }
 
 export default MyApp;
