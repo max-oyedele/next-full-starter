@@ -19,4 +19,4 @@ This helps me construct initial project for next.js application architecture
 
 [`ESLint`](https://nextjs.org/docs/basic-features/eslint)
 
-## ✌️ Each branch has its own architecture to be reused according to the requirement.
+## ✌️ Each branch has its own architecture.
