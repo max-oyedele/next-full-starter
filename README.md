@@ -2,6 +2,7 @@
 
 This helps me construct initial project for next.js application architecture
 
+![Screenshot](./starter.png?raw=true "Title")
 ## Configuration
 
 [`Next.js`](https://nextjs.org/docs)
@@ -9,8 +10,6 @@ This helps me construct initial project for next.js application architecture
 [`TypeScript`](https://www.typescriptlang.org/docs/handbook/react.html)
 
 [`Redux Toolkit`](https://redux-toolkit.js.org/tutorials/typescript)
-
-[`Tailwind CSS`](https://tailwindcss.com/docs)
 
 [`Service worker`](https://blog.bitsrc.io/using-service-workers-with-react-27a4c5e2d1a9)
 
