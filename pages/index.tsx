@@ -15,6 +15,7 @@ export default function Home() {
           <a className="text-blue-600" href="https://nextjs.org">
             My Starter
           </a>
+          using Tailwind CSS
         </h1>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
