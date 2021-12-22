@@ -1,29 +1,36 @@
-import Head from "next/head";
+import { 
+  Container, 
+  Heading, 
+  HStack, 
+  Center, 
+  Box, 
+  Text, 
+  Button, 
+  Link, 
+  Divider 
+} from "@chakra-ui/react";
+
 import { Counter } from "src/components/Counter";
+import MotionBoxExample from "src/components/MotionBox";
 
 export default function Home() {
   return (
-    <div>
-      <main>
-        <h1>
+    <Container maxW="3xl" py={12}>
+      <Center>
+        <Heading>
           Welcome to{" "}
-          <a href="https://nextjs.org">
+          <Link href="">
             My Starter
-          </a>
-        </h1>
+          </Link>
+        </Heading>
+      </Center>
 
+      <Box mt={12}>
         <Counter />
-      </main>
+      </Box>
+      <Divider my={12} />
+      <MotionBoxExample />
 
-      <footer style={{marginTop: 40}}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Vercel
-        </a>
-      </footer>
-    </div>
+    </Container>
   );
 }

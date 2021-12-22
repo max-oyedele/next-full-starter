@@ -1,4 +1,5 @@
 import React from "react";
+import { HStack, Box, Text, Button } from "@chakra-ui/react";
 import { RootState } from "src/redux/store";
 import { useAppSelector, useAppDispatch } from "src/redux/hooks";
 import { decrement, increment } from "src/redux/slices/counterSlice";
@@ -8,22 +9,14 @@ export function Counter() {
   const dispatch = useAppDispatch();
 
   return (
-    <div>
-      <div>
-        <button
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          Increment
-        </button>
-        <span>{count}</span>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          Decrement
-        </button>
-      </div>
-    </div>
+    <HStack>
+      <Button onClick={() => dispatch(increment())}>
+        Increment
+      </Button>
+      <Text>{count}</Text>
+      <Button onClick={() => dispatch(decrement())}>
+        Decrement
+      </Button>
+    </HStack>
   );
 }
