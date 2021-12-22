@@ -13,8 +13,4 @@ This helps me construct initial project for next.js application architecture
 
 [`Redux Toolkit`](https://redux-toolkit.js.org/tutorials/typescript)
 
-[`Service worker`](https://blog.bitsrc.io/using-service-workers-with-react-27a4c5e2d1a9)
-
-[`ESLint`](https://nextjs.org/docs/basic-features/eslint)
-
 ## ✌️ Each branch has its own architecture.
