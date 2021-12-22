@@ -2,8 +2,10 @@
 
 This helps me construct initial project for next.js application architecture
 
+
 ![Screenshot](./starter.png?raw=true "Title")
-## Configuration
+
+## Main Configuration
 
 [`Next.js`](https://nextjs.org/docs)
 
@@ -16,3 +18,5 @@ This helps me construct initial project for next.js application architecture
 [`Husky`](https://typicode.github.io/husky/#/)
 
 [`ESLint`](https://nextjs.org/docs/basic-features/eslint)
+
+## ✌️ Each branch has its own architecture to be reused according to the requirement.
